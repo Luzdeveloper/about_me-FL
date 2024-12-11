@@ -1,0 +1,39 @@
+.profil{
+    background-color: darkgray;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+.profil h1{
+    text-decoration: underline;
+    padding: 20px;
+    
+}
+
+.profil .photo {
+    display: block;
+    margin: 0 auto; /* Centre l'image */
+    border-radius: 50%; /* rend l'image circulaire */
+    margin-bottom: 50px;
+}
+
+.profil p {
+    margin-top: 20px; /* Ajoute un espace entre l'image et le texte */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 90%;
+    margin: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+

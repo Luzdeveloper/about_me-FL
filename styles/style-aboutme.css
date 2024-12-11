@@ -1,0 +1,66 @@
+h1, h2,p{
+    padding: 30px;
+}
+.Operationnelles,.comportementale{
+    border:solid 2px #333;
+    border-radius: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background: white;
+}
+
+.cards{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 95%;
+    justify-content:center ;
+}
+.connaissances{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.tableau {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin-top: 45px;
+    padding-bottom: 50px;
+}
+
+/* Styles supplémentaires pour le tableau */
+.tableau table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.tableau th, .tableau td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align:left;
+}
+
+.tableau th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tableau .cross {
+    color: red; 
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
